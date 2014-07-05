@@ -1,3 +1,6 @@
+<?php
+	require("../lib/autoload.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
