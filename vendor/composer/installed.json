@@ -1,0 +1,125 @@
+[
+    {
+        "name": "sonata-project/google-authenticator",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sonata-project/GoogleAuthenticator.git",
+            "reference": "72f47caddd09d09c0d3c3e046f6b435e0c004cd4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sonata-project/GoogleAuthenticator/zipball/72f47caddd09d09c0d3c3e046f6b435e0c004cd4",
+            "reference": "72f47caddd09d09c0d3c3e046f6b435e0c004cd4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-03-31 09:18:53",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Google\\Authenticator\\": "lib/",
+                "Google\\Authenticator\\Tests\\": "tests/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Rabaix",
+                "email": "thomas.rabaix@gmail.com",
+                "homepage": "http://sonata-project.org/"
+            },
+            {
+                "name": "Christian Stocker",
+                "email": "me@chregu.tv"
+            },
+            {
+                "name": "Andre DeMarre",
+                "homepage": "http://www.devnetwork.net/viewtopic.php?f=50&t=94989"
+            }
+        ],
+        "description": "Library to integrate Google Authenticator into a PHP project",
+        "homepage": "https://github.com/sonata-project/GoogleAuthenticator",
+        "keywords": [
+            "google authenticator"
+        ]
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "022382c9bf970409dae5c3e7d248b38e2e2f9b74"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/022382c9bf970409dae5c3e7d248b38e2e2f9b74",
+            "reference": "022382c9bf970409dae5c3e7d248b38e2e2f9b74",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "*",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2014-06-13 09:18:30",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "class.phpmailer.php",
+                "class.pop3.php",
+                "class.smtp.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "jayc89/PHP-MySQL-PDO-Database-Class",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jayc89/PHP-MySQL-PDO-Database-Class.git",
+            "reference": "9737cfe130e4a7a56eaa91ba0835efdedb9bceec"
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-07-05 20:14:09",
+        "type": "library",
+        "installation-source": "source"
+    }
+]

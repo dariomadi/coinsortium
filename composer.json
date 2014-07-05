@@ -1,0 +1,13 @@
+{
+    "require": {
+        "sonata-project/google-authenticator": "dev-master",
+        "PHPMailer/PHPMailer": "dev-master",
+        "jayc89/PHP-MySQL-PDO-Database-Class": "dev-master"
+    },
+    "repositories": [
+    {
+        "url": "https://github.com/jayc89/PHP-MySQL-PDO-Database-Class.git",
+        "type": "git"
+    }
+]
+}
