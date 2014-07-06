@@ -175,7 +175,7 @@
 			); 
 			 
 			// Execute the query to create the user 
-			$result = $db->insert($query, $query_params);
+			$result = $db->query($query, $query_params);
 			if(!$result){
 				$error = "Failed to register user.";
 			}
