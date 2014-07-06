@@ -1,3 +1,6 @@
 [submodule "lib/classes/pdo"]
 	path = lib/classes/pdo
 	url = https://github.com/jayc89/PHP-MySQL-PDO-Database-Class
+[submodule "lib/classes/jsonRPC"]
+	path = lib/classes/jsonRPC
+	url = https://github.com/fguillot/JsonRPC

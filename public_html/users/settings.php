@@ -54,7 +54,7 @@
 					<div class="control-group">
 						<label class="control-label" for="btcDepositAddress">Deposit Address</label>
 						<div class="controls">
-							<input id="btcDepositAddress" name="btcDepositAddress" type="text" placeholder="<?php echo $_SESSION['user']['btcDepositAddress']; ?>" class="input-xlarge" value="">
+							<input id="btcDepositAddress" name="btcDepositAddress" type="text" placeholder="<?php echo $_SESSION['user']['btcDepositAddress']; ?>" class="input-xlarge" value="" disabled>
 						</div>
 					</div>
 
