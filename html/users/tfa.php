@@ -1,7 +1,7 @@
 <?php
 	require("../../lib/autoload.php");
-	require($html_root."includes/secure.inc.php");
-	require($html_root."includes/tfa.inc.php");
+	require($html_root."includes/users/secure.inc.php");
+	require($html_root."includes/users/tfa.inc.php");
 	require($html_root."includes/head.inc.php");
 ?>
 <body>

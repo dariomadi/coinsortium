@@ -1,3 +1,3 @@
       <footer>
-        <p>&copy; Company 2014</p>
+        <p>&copy; Coinsortium <?php echo date('Y'); ?></p>
       </footer>

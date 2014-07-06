@@ -1,6 +1,6 @@
 <?php
 	if($_SERVER['PHP_SELF'] !== "/tfa.php"){
-		require ($html_root."includes/authentication.inc.php");
+		require ($html_root."includes/users/authentication.inc.php");
 	}
 ?>
 <!DOCTYPE html>
