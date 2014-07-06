@@ -1,3 +1,8 @@
+<?php
+	if($_SERVER['PHP_SELF'] !== "/tfa.php"){
+		require ($html_root."includes/authentication.inc.php");
+	}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
