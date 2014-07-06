@@ -1,6 +1,6 @@
 <?php
-	$root = "/usr/local/coinsortium/public_html2/";
-	$html_root = $root."html/";
+	$root = "/usr/local/coinsortium/";
+	$html_root = $root."public_html/";
 
 	require($root.'etc/settings.php');
 	require($root.'vendor/autoload.php');
