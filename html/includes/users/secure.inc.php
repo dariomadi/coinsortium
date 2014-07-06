@@ -13,5 +13,5 @@
 			header("Location: /users/tfa.php");
 		}
 	}else{
-		$warning = "We recommend enabling Two Factor Authentication!";
+		$warning = "We recommend enabling Two Factor Authentication! <a href =\"/users/settings.php\">Do it now.</a>";
 	}
